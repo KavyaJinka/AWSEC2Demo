@@ -10,7 +10,7 @@ public class AwsController {
 
     @GetMapping("/welcome")
     public String getMethod(){
-        return "wel come to aws";
+        return "welcome to Dextris";
     }
 
     @GetMapping("/get/{id}")
